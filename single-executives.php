@@ -32,7 +32,7 @@ get_header();
                                 <?php echo get_field('executives_introduction') ?>
                             </div>
                         <?php endif; ?>
-                        <div><a href="/executive-leadership-team/" class="btn btn-primary"><?php esc_html_e('Executive Leadership Team', 'bimwerx'); ?></a></div>
+                        <div><a href="/executive-leadership-team/" class="btn btn-primary"><?php esc_html_e('View Executive Leadership Team', 'bimwerx'); ?></a></div>
                     </div>
                 </div>
 
