@@ -4,7 +4,7 @@
 
             <div id="" class="step-1-text pl-6 md:pl-0 pr-6 mb-6">
                 <p class="text-sm uppercase text-gray-light md:text-right font-semibold">Step 1</p>
-                <h2 class="font-semibold text-orange-light text-3xl md:text-right"><?php block_field( 'step-1-title' ); ?></h2>
+                <h4 class="font-semibold text-orange-light text-3xl md:text-right"><?php block_field( 'step-1-title' ); ?></h4>
                 <div class="mt-4 md:text-right"><?php block_field( 'step-1-text' ); ?></div>
             </div>
             <div class="step-1-number steps">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="step-2-text pl-6 mb-6">
                 <p class="text-sm uppercase text-gray-light font-semibold">Step 2</p>
-                    <h2 class="font-semibold text-orange-light text-3xl"><?php block_field( 'step-2-title' ); ?></h2>
+                    <h4 class="font-semibold text-orange-light text-3xl"><?php block_field( 'step-2-title' ); ?></h4>
                     <div class="mt-4"><?php block_field( 'step-2-text' ); ?></div>
                 </div>
             <?php } ?>
@@ -27,7 +27,7 @@
             <?php if( block_value( 'step-3-title' ) ) { ?>
                 <div class="step-3-text pl-6 md:pl-0 pr-6 mb-6">
                     <p class="text-sm uppercase text-gray-light md:text-right font-semibold">Step 3</p>
-                    <h2 class="font-semibold text-orange-light text-3xl md:text-right"><?php block_field( 'step-3-title' ); ?></h2>
+                    <h4 class="font-semibold text-orange-light text-3xl md:text-right"><?php block_field( 'step-3-title' ); ?></h4>
                     <div class="mt-4 md:text-right"><?php block_field( 'step-3-text' ); ?></div>
                 </div>
                 <div class="step-3-number steps">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="step-4-text pl-6 mb-6">
                 <p class="text-sm uppercase text-gray-light font-semibold">Step 4</p>
-                    <h2 class="font-semibold text-orange-light text-3xl"><?php block_field( 'step-4-title' ); ?></h2>
+                    <h4 class="font-semibold text-orange-light text-3xl"><?php block_field( 'step-4-title' ); ?></h4>
                     <div class="mt-4"><?php block_field( 'step-4-text' ); ?></div>
                 </div>
             <?php } ?>

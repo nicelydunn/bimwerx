@@ -32,7 +32,7 @@ get_header();
                             <p class="text-center"><button data-tf-popup="zv2BnB2V" data-tf-iframe-props="title=BIMWERX Contact Form" data-tf-medium="snippet" style="" class="btn btn-primary">Contact Form</button></p><script src="//embed.typeform.com/next/embed.js"></script>
                         </div>
                         <div class="hidden lg:block">
-                            <div class="prose-lg"><h2>Our Services</h2></div>
+                            <div class="prose-lg"><h3>Our Services</h3></div>
                             <?php 
                                 $args = array(
                                     'post_type' => 'services',

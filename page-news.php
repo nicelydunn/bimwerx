@@ -53,7 +53,7 @@ get_header();
 									<p class="text-sm text-center"><?php echo get_the_date('Y'); ?></p>
 								</div>
 								<div class="border-l border-gray-400 pl-4">
-									<h1 class="mt-1 text-2xl lg:text-3xl font-semibold"><?php the_title(); ?></h1>
+									<h4 class="mt-1 text-2xl lg:text-3xl font-semibold"><?php the_title(); ?></h4>
 									<p class="mt-4 mb-4">
 										BY <span class="uppercase text-orange-dark"><?php the_author(); ?></span> | 
 										<?php if( get_field('read_time') ): ?>

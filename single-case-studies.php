@@ -103,7 +103,7 @@ get_header();
         <div class="container mx-auto px-4 mt-16">
 
             <div class="w-16 border-b-2 border-gray-600"></div>
-            <h4 class="text-3xl mt-4 text-orange-dark"><?php esc_html_e('More Projects Completed By BIMWERX', 'bimwerx') ?></h4>
+            <h3 class="text-3xl mt-4 text-orange-dark"><?php esc_html_e('More Projects Completed By BIMWERX', 'bimwerx') ?></h3>
 
             <div>
                 <?php if ( is_active_sidebar( 'projects-1' ) ): ?>

@@ -31,7 +31,7 @@ get_header();
 					</div>
 				</div>
 				<div class="hidden lg:block">
-					<div class="prose-lg"><h2 class="mt-0">Our Services</h2></div>
+					<div class="prose-lg"><h3 class="mt-0">Our Services</h3></div>
 					<?php 
 						$args = array(
 							'post_type' => 'services',

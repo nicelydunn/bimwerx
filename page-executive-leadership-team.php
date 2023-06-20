@@ -46,7 +46,7 @@ get_header();
                             <div class="aspect-[4/5]">
                                 <?php echo get_the_post_thumbnail(get_the_ID(),'large', array('class' => 'w-full h-full object-cover')); ?>
                             </div>
-                            <h2 class="mt-2 text-3xl font-semibold text-right"><?php the_title(); ?></h2>
+                            <h4 class="mt-2 text-3xl font-semibold text-right"><?php the_title(); ?></h4>
                             <p class="text-right text-orange-light uppercase"><?php echo get_field('executives_role'); ?></p>
                         </a>
 

@@ -39,7 +39,7 @@ get_header();
                             <div class="bg-cover aspect-[3/1]" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>')"></div>
                             <div class="px-8 py-4 pt-0 -mt-8">
                                 <div class="flex justify-center"><div class="inline-block bg-white p-4 rounded-full"><img class="h-12 w-12 object-contain" src="<?php echo get_field( 'icon' ); ?>" alt=""></div></div>
-                                <h2 class="text-center font-semibold text-lg"><?php the_title(); ?></h2>
+                                <h4 class="text-center font-semibold text-lg"><?php the_title(); ?></h4>
                                 <?php $excerpt = wp_trim_words( get_the_excerpt(), '15', '...' ); ?>
                                 <p class="hidden md:block text-center mt-4"><?php echo $excerpt; ?></p>
                             </div>

@@ -48,7 +48,7 @@ get_header();
                                 <?php echo get_the_post_thumbnail(get_the_ID(),'large', array('class' => 'w-full h-full object-cover')); ?>
                             </div>
                             <div class="px-6 mb-4">
-                                <h3 class="text-3xl font-semibold mt-4"><?php echo get_the_title(); ?></h3>
+                                <h4 class="text-3xl font-semibold mt-4"><?php echo get_the_title(); ?></h4>
                                 <p class="text-xs uppercase font-semibold"><?php echo get_field( 'location' ); ?></p>
                                 <p class="mt-4"><?php echo get_the_excerpt(); ?></p>
                             </div>

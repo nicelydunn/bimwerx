@@ -41,7 +41,7 @@ get_header();
                         </div>
                     </div>
                     <div>
-                        <h4 class="text-2xl font-semibold uppercase">Latest News</h4>
+                        <h2 class="text-2xl font-semibold uppercase">Latest News</h2>
                         <div class="grid grid-cols-5 mt-2">
                             <div class="border-b-2 border-orange-dark"></div>
                             <div class="col-span-4 border-b-2 border-gray-200"></div>
