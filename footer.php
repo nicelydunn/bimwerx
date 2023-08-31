@@ -14,11 +14,11 @@
 	<footer class="mt-8">
 		<div class="bg-gray-dark py-10">
 			<div class="container px-4 md:mx-auto flex items-center justify-between">
-				<div><img class="h-16 w-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/bimwerx-logo-white.png" alt=""></div>
+				<div><img class="h-16 w-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/bimwerx-logo-white.png" alt="BIMWERX Logo"></div>
 				<div class="flex gap-2">
-					<a href="https://www.linkedin.com/company/bimwerx" aria-label="BIMWERX LinkedIn Site" target="_blank"><img class="h-8 w-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-linkedin.png" alt=""></a>
-					<a href="https://www.facebook.com/BIMWERX/" target="_blank" aria-label="BIMWERX Facebook Page"><img class="h-8 w-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.png" alt=""></a>
-					<a href="https://www.instagram.com/bimwerx/" aria-label="BIMWERX Instagram Page" target="_blank"><img class="h-8 w-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt=""></a>
+					<a href="https://www.linkedin.com/company/bimwerx" aria-label="BIMWERX LinkedIn Site" target="_blank"><img class="h-8 w-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-linkedin.png" alt="LinkedIn Logo"></a>
+					<a href="https://www.facebook.com/BIMWERX/" target="_blank" aria-label="BIMWERX Facebook Page"><img class="h-8 w-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-facebook.png" alt="Facebook Logo"></a>
+					<a href="https://www.instagram.com/bimwerx/" aria-label="BIMWERX Instagram Page" target="_blank"><img class="h-8 w-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt="Instagram Logo"></a>
 				</div>
 			</div>
 		</div>
